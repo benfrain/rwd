@@ -1,0 +1,37 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.MenuWrap {
+	background-color: indigo;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	min-height: 2.75rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+@media (min-width: 31.25em) {
+	.MenuWrap {
+		flex-direction: row;
+	}	
+}
+
+.ListItem,
+.LastItem {
+	color: #ebebeb;
+	text-decoration: none;
+}
+
+@media (min-width: 31.25em) {
+	.ListItem {
+		margin-right: 1rem;
+	}
+	.LastItem {
+		margin-left: auto;
+	}
+}

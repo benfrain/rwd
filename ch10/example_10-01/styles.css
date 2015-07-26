@@ -1,0 +1,18 @@
+@media (min-width: 20rem) {
+    body::after {
+        content: "Splus";
+        font-size: 0;
+    }
+}
+@media (min-width: 47.5rem) {
+    body::after {
+        content: "Mplus";
+        font-size: 0;
+    }
+}
+@media (min-width: 62.5rem) {
+    body::after {
+        content: "Lplus";
+        font-size: 0;
+    }
+}

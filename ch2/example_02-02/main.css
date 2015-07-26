@@ -1,0 +1,47 @@
+.CardLink {
+	display: block;
+	color: #666;
+	text-shadow: 0 2px 0 #efefef;
+	text-decoration: none;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	border-bottom: 1px solid #bbb;
+	position: relative;
+}
+
+@media (min-width: 300px) {
+	.CardLink {
+		padding-left: 1.8rem;
+		font-size: 1.6rem;
+	}
+}
+
+.CardLink:before {
+	display: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+}
+
+.CardLink_Hearts:before {
+	content: "❤";
+}
+
+.CardLink_Clubs:before {
+	content: "♣";
+}
+
+.CardLink_Spades:before {
+	content: "♠";
+}
+
+.CardLink_Diamonds:before {
+	content: "♦";
+}
+
+@media (min-width: 300px) {
+	.CardLink:before {
+		display: block;
+	}
+}

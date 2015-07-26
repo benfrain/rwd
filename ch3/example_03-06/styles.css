@@ -1,0 +1,21 @@
+html,
+body {
+	margin: 0;
+	padding: 1rem;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	color: #555;
+}
+
+.InlineFlex {
+	display: inline-flex;
+	align-items: center;	
+	height: 120px;
+	padding: 0 4px;
+	background-color: indigo;
+	text-decoration: none;
+	border-radius: 3px;
+	color: #ddd;
+}

@@ -1,0 +1,18 @@
+.menu-toggle {
+	appearance: none;
+	display: inline-flex;
+	padding: 0 10px;
+	font-size: 17px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	border: 1px solid #ebebeb;
+	min-height: 44px;
+	text-decoration: none;
+	color: #777;
+}
+
+[aria-label="site navigation"] {
+	margin-right: 1ch;
+	font-size: 24px;
+}
