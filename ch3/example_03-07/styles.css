@@ -22,10 +22,10 @@ body {
 }
 
 .FlexOne {
-	flex: 1.5;
+	flex: 1.5 0 auto;
 }
 
 .FlexTwo,
 .FlexThree {
-	flex: 1;
+	flex: 1 0 auto;
 }
